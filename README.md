@@ -33,10 +33,10 @@ Components of Physical application
     Minimum of 2 uses of the Math library methods
     Minimum of 3 uses of the Scanner object/input from the user
 Project Presentation
-
-
     PowerPoint Presentation
         Going through all aspects of the project beginning to end
         Each member must speak at least one
         Member Roles / Involvement
         Minimum slide requirement 12 (not including title/sub title slides)
+
+something (so i can get the formatting back (maybe))
