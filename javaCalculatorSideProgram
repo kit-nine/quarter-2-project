@@ -1,0 +1,25 @@
+public class javaCalculatorSideProgram {
+	public static long performOperations(String calcInput){
+		long answer = 0;
+		
+		if(calcInput.contains("cmds")) {
+			javaCalculatorServiceMethods.displayCommands();
+		}else if(calcInput.contains("sqrt")) {
+			answer = javaCalculatorOperationMethods.squareRootMethod(calcInput);
+		}else if(calcInput.contains("^")) {
+			answer = javaCalculatorOperationMethods.exponentMethod(calcInput);
+		}else if(calcInput.contains("%")) {
+			answer = javaCalculatorOperationMethods.modulusMethod(calcInput);		
+		}else if(calcInput.contains("*")) {
+			answer = javaCalculatorOperationMethods.multiplicationMethod(calcInput);	
+		}else if(calcInput.contains("/")) {
+			answer = javaCalculatorOperationMethods.divisionMethod(calcInput);	
+		}else if(calcInput.contains("+")) {
+			answer = javaCalculatorOperationMethods.additionMethod(calcInput);	
+		}else if(calcInput.contains("-")) {
+			answer = javaCalculatorOperationMethods.subtractionMethod(calcInput);
+		}
+		System.out.println();
+		return answer;
+	}
+}
